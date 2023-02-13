@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.1rem;
+}
+button{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+a{
+    font-size: 2rem;
+}
+/* header */
+header{
+    background-image: url(https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 90%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin: 5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-text{
+    color: white;
+    width: 40%;
+    margin-left: 50px;
+}
+.banner-text h2, p, button{
+    margin-top: 30px;
+}
+.banner-text button{
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+/* navigation */
+nav{
+    width: 20%;
+    background-color: darkblue;
+    margin: 5%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+nav div{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.btn-race{
+    background-color: orangered;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
